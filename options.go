@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/18F/hmacauth"
-	"github.com/bitly/oauth2_proxy/providers"
+	"github.com/chub/bitly-oauth2_proxy/providers"
 	oidc "github.com/coreos/go-oidc"
 )
 
