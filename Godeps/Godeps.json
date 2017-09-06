@@ -1,6 +1,7 @@
 {
 	"ImportPath": "github.com/bitly/oauth2_proxy",
 	"GoVersion": "go1.5.2",
+	"GodepVersion": "v79",
 	"Deps": [
 		{
 			"ImportPath": "github.com/18F/hmacauth",
@@ -23,24 +24,8 @@
 			"Rev": "e17e99893cb6509f428e1728281c2ad60a6b31e3"
 		},
 		{
-			"ImportPath": "github.com/coreos/go-oidc/http",
-			"Rev": "5d3ac76573da4d1e3254d3748217bdf89154c667"
-		},
-		{
-			"ImportPath": "github.com/coreos/go-oidc/jose",
-			"Rev": "5d3ac76573da4d1e3254d3748217bdf89154c667"
-		},
-		{
-			"ImportPath": "github.com/coreos/go-oidc/key",
-			"Rev": "5d3ac76573da4d1e3254d3748217bdf89154c667"
-		},
-		{
-			"ImportPath": "github.com/coreos/go-oidc/oauth2",
-			"Rev": "5d3ac76573da4d1e3254d3748217bdf89154c667"
-		},
-		{
-			"ImportPath": "github.com/coreos/go-oidc/oidc",
-			"Rev": "5d3ac76573da4d1e3254d3748217bdf89154c667"
+			"ImportPath": "github.com/coreos/go-oidc",
+			"Rev": "c797a55f1c1001ec3169f1d0fbb4c5523563bec6"
 		},
 		{
 			"ImportPath": "github.com/coreos/go-systemd/journal",
@@ -112,6 +97,29 @@
 			"ImportPath": "gopkg.in/fsnotify.v1",
 			"Comment": "v1.2.0",
 			"Rev": "96c060f6a6b7e0d6f75fddd10efeaca3e5d1bcb0"
+		},
+		{
+			"ImportPath": "github.com/pquerna/cachecontrol",
+			"Rev": "9299cc36e57c32f83e47ffb3c25d8a3dec10ea0b"
+		},
+		{
+			"ImportPath": "gopkg.in/square/go-jose.v2",
+			"Comment": "v2.1.2",
+			"Rev": "b25e6cab129e4a54675b42ea49d38e9c33ade9e6"
+		},
+		{
+			"ImportPath": "github.com/pquerna/cachecontrol/cacheobject",
+			"Rev": "9299cc36e57c32f83e47ffb3c25d8a3dec10ea0b"
+		},
+		{
+			"ImportPath": "gopkg.in/square/go-jose.v2/cipher",
+			"Comment": "v2.1.2",
+			"Rev": "b25e6cab129e4a54675b42ea49d38e9c33ade9e6"
+		},
+		{
+			"ImportPath": "gopkg.in/square/go-jose.v2/json",
+			"Comment": "v2.1.2",
+			"Rev": "b25e6cab129e4a54675b42ea49d38e9c33ade9e6"
 		}
 	]
 }
